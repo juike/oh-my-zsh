@@ -106,3 +106,6 @@ if [ ! "$ZSH_THEME" = ""  ]; then
     source "$ZSH/themes/$ZSH_THEME.zsh-theme"
   fi
 fi
+
+export NODE_PATH=/usr/local/lib/node
+alias bower='noglob bower'
